@@ -2,7 +2,7 @@
 
 ## Project Description
 
-An app that allows the user to search for articles via keyword(s). The user can create an account and save articles to thier profile.
+- An app that allows the user to search for articles via keyword(s). The user can create an account and save articles to thier profile.
 
 ## Technolgies and Techniques
 
@@ -20,3 +20,7 @@ An app that allows the user to search for articles via keyword(s). The user can 
 
 Check out [https://drive.google.com/file/d/1EUWJVw3SPcCtyWeJ7Dg-UnjnPATtKttx/view?usp=sharing), where I describe my
 project and some challenges I faced while building it.
+
+## Link to Website
+
+- Check out the webpage live on Github pages: https://zsg0016.github.io/NewsExplorer/
