@@ -69,8 +69,6 @@ function App() {
       })
       .catch((error) => console.error(error))
       .finally(() => setIsLoading(false));
-    console.log("Arrticles after search: ");
-    console.log(articles);
   };
 
   const handleLogin = (input, handleReset) => {
@@ -103,7 +101,6 @@ function App() {
         });
       })
       .catch(() => setRequestFailed(false));
-    console.log(savedArticles);
   };
 
   const handleDeleteSavedArticle = (articleId) => {
@@ -114,7 +111,6 @@ function App() {
         });
       })
       .catch(() => setRequestFailed(false));
-    console.log(savedArticles);
   };
 
   const handleLogout = () => {
@@ -126,7 +122,6 @@ function App() {
 
   useEffect(() => {
     setNotFound(articles.length === 0 && keyword !== "");
-    console.log("saved article changed");
   }, [articles]);
 
   return (
