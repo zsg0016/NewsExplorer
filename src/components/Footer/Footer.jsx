@@ -12,17 +12,26 @@ function Footer() {
           <Link to="/" className="footer__link">
             Home
           </Link>
-          <Link to={"https://tripleten.com/"} className="footer__link">
+          <Link
+            to={"https://tripleten.com/"}
+            className="footer__link"
+            target="_blank"
+          >
             TripleTen
           </Link>
         </li>
         <li className="footer__list-item">
-          <Link className="footer__link-icon" to={"https://github.com/zsg0016"}>
+          <Link
+            className="footer__link-icon"
+            to={"https://github.com/zsg0016"}
+            target="_blank"
+          >
             <img src={GITHUB_IMAGE} alt="GitHub" />
           </Link>
           <Link
             className="footer__link-icon"
             to={"https://www.linkedin.com/in/zachary-guidry-832b31180"}
+            target="_blank"
           >
             <img src={LINKEDIN_IMAGE} alt="LinkedIn" />
           </Link>

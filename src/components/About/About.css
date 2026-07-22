@@ -4,7 +4,7 @@
   margin: 0;
   margin-top: 80px;
   margin-bottom: 80px;
-  margin-left: 104px;
+  justify-content: center;
 }
 
 .about__image {
@@ -33,7 +33,7 @@
   color: rgba(26, 27, 34, 1);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .about {
     display: flex;
     flex-direction: column;
@@ -46,14 +46,18 @@
   .about__image {
     width: 272px;
     height: 272px;
+    margin: 0 auto;
   }
 
   .about__title {
     font-size: 30px;
     line-height: 40px;
+    margin: 0 auto;
+    width: 288px;
   }
 
   .about__text {
     width: 288px;
+    margin: 0 auto;
   }
 }

@@ -11,6 +11,7 @@
   line-height: 24px;
   letter-spacing: 0px;
   vertical-align: middle;
+  width: 100%;
 }
 
 .navbar.home {
@@ -175,7 +176,7 @@
   visibility: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .navbar {
     padding-left: 40px;
     height: 66px;
@@ -211,7 +212,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .navbar {
     visibility: hidden;
     display: none;
@@ -227,7 +228,7 @@
   .navbar-iphone__container {
     visibility: visible;
     background-color: transparent;
-    width: 320px;
+    width: 100%;
     height: max-content;
     flex-direction: column;
   }

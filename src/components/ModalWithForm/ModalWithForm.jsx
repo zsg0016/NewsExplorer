@@ -25,11 +25,6 @@ function ModalWithForm(props) {
       className={`modal ${props.isOpen ? `modal__is-opened` : ``} modal_type_${props.name}`}
       onClick={(e) => handleClicked(e, props.onClose)}
     >
-      <button
-        type="button"
-        className="form__close-btn"
-        onClick={props.onClose}
-      ></button>
       <div className="modal__container">
         <form
           name={props.name}
@@ -39,6 +34,11 @@ function ModalWithForm(props) {
             props.handleSubmit(e);
           }}
         >
+          <button
+            type="button"
+            className="form__close-btn"
+            onClick={props.onClose}
+          ></button>
           <div className="form__header">
             <p className="form__title">{props.title}</p>
           </div>

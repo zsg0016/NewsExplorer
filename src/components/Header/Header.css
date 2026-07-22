@@ -43,7 +43,7 @@
   margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .header__title {
     font-size: 36px;
     line-height: 40px;
@@ -54,7 +54,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .header__title {
     width: 285px;
   }
@@ -62,12 +62,13 @@
     width: 288px;
   }
   .header__home {
-    width: 320px;
+    width: 100%;
     max-height: max-content;
     background-image: url(../../images/header_background-phone.svg);
     background-size: cover;
   }
   .header__profile {
+    width: 100%;
     max-height: max-content;
     background-size: cover;
   }

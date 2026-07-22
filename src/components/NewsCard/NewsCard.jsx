@@ -56,8 +56,8 @@ function NewsCard({ article, onSave, isLoggedIn, onDelete }) {
       )}
       <Link
         className="card__link"
-        to={article.url}
-        target="_blank"
+        to={!isProfile && article.url}
+        target={!isProfile && "_blank"}
         rel="noopener noreferrer"
       >
         <img src={article.urlToImage} className="card__image" />
