@@ -9,6 +9,7 @@
   flex-direction: column;
   gap: 24px;
   justify-self: center;
+  position: relative;
 }
 
 .form__header {
@@ -206,10 +207,9 @@
   .form__close-btn {
     width: 24px;
     height: 24px;
-    left: 0px;
     bottom: 0;
     top: -40px;
-    left: 280px;
+    right: 16px;
   }
   .form__submit-btn {
     width: 288px;

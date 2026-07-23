@@ -1,8 +1,6 @@
-import { savedArticles } from "../utils/constants.js";
-
 export const getSavedArticles = () => {
   return new Promise((resolve) => {
-    resolve(savedArticles);
+    resolve([]);
   });
 };
 
