@@ -1,0 +1,99 @@
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.profile__text {
+  padding-left: 104px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  width: max-content;
+}
+
+.profile__text-header {
+  margin: 0;
+  margin-top: 40px;
+  color: rgba(26, 27, 34, 0.5);
+}
+
+.profile__text-username {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: 0px;
+  color: rgba(26, 27, 34, 1);
+  margin: 0;
+  margin-top: 28px;
+}
+
+.profile__keywords {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin: 0;
+  height: 24px;
+  margin-top: 30px;
+  margin-bottom: 56px;
+}
+
+.profile__keywords-text {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: rgba(26, 27, 34, 1);
+}
+
+p {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .profile__text {
+    margin-left: 40px;
+    font-size: 12px;
+    margin-bottom: 32px;
+  }
+  .profile__text-header {
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .profile__text-username {
+    font-size: 30px;
+    line-height: 34px;
+    width: 336px;
+    margin-top: 16px;
+  }
+  .profile__keywords {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile__text {
+    margin-left: 16px;
+    font-size: 18px;
+    margin-bottom: 32px;
+  }
+  .profile__text-header {
+    font-size: 12px;
+    margin-top: 8px;
+  }
+  .profile__text-username {
+    width: 288px;
+    margin-top: 16px;
+  }
+  .profile__keywords {
+    margin-top: 50px;
+    width: 288px;
+    height: 48px;
+    overflow-wrap: break-word;
+  }
+}

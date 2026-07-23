@@ -1,0 +1,8 @@
+.app {
+  width: 100%;
+  height: max-content;
+}
+
+.custom-pointer {
+  cursor: url("../../images/cursor.svg"), default;
+}
